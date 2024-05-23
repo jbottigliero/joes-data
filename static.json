@@ -7,6 +7,9 @@
   "data": {
     "version": "1.0.0",
     "attributes": {
+      "theme": {
+        "colorScheme": "purple"
+      },
       "content": {
         "title": "Modern Research Data Portal",
         "privacy_policy": "This is an example privacy policy – you should replace this with your own policy.",
