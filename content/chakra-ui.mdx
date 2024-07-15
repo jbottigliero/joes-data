@@ -5,7 +5,9 @@ import { Card, CardHeader, CardBody, CardFooter, Box, Heading, Text, Stack, Stac
   DrawerHeader,
   DrawerOverlay,
   DrawerContent,
-  DrawerCloseButton, useDisclosure } from '@chakra-ui/react';
+  DrawerCloseButton, 
+  useDisclosure
+} from '@chakra-ui/react';
 
 
 <Container>
@@ -31,7 +33,7 @@ import {Button} from '@chakra-ui/react';
 
 A more advanced example, might use state...
 
-function DrawerExample() {
+export function DrawerExample() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = React.useRef()
 
@@ -67,7 +69,7 @@ function DrawerExample() {
   )
 }
 
-<DrawerExample>
+<DrawerExample />
 
 
 
