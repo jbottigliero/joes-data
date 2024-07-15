@@ -17,21 +17,26 @@ import { Card, CardHeader, CardBody, CardFooter, Box, Heading, Text, Stack, Stac
 
 Since this generator supports [MDX](https://mdxjs.com/) **and** uses [Chakra UI](https://v2.chakra-ui.com/), you can easily create interative experiences that match the rest of your portal them by importing components.
 
+<br />
 
 For example:
+<br />
 
 ```js
+
 import {Button} from '@chakra-ui/react';
-<Button colorScheme='blue'>Button</Button>
+
+<Button>Button</Button>
+
 ```
 
-<Button colorScheme='blue'>Button</Button>
+<Button my={2}>Button</Button>
 
 
 <hr />
 
 
-A more advanced example, might use state...
+A more advanced example, might even use state...
 
 export function DrawerExample() {
   const { isOpen, onOpen, onClose } = useDisclosure()
@@ -39,7 +44,7 @@ export function DrawerExample() {
 
   return (
     <>
-      <Button ref={btnRef} colorScheme='teal' onClick={onOpen}>
+      <Button ref={btnRef} colorScheme='teal' onClick={onOpen} my={4}>
         Open Drawer
       </Button>
       <Drawer
@@ -61,7 +66,7 @@ export function DrawerExample() {
             <Button variant='outline' mr={3} onClick={onClose}>
               Cancel
             </Button>
-            <Button colorScheme='blue'>Save</Button>
+            <Button>Save</Button>
           </DrawerFooter>
         </DrawerContent>
       </Drawer>
