@@ -1,3 +1,3 @@
 # 🧪 EXPERIMENTAL 🧪
 
-An implementation of [globus/example-data-portal](https://github.com/globus/example-data-portal).
+- Uses the trunk (`main`) for the [globus/static-data-portal](https://github.com/globus/static-data-portal) generator.
