@@ -13,7 +13,15 @@
       "content": {
         "title": "Modern Research Data Portal",
         "privacy_policy": "This is an example privacy policy – you should replace this with your own policy.",
-        "terms_of_service": "This is an example terms of service – you should replace this with your own terms."
+        "terms_of_service": "This is an example terms of service – you should replace this with your own terms.",
+        "navigation": {
+          "items": [
+            {
+              "label": "GitHub",
+              "href": "https://github.com/jbottigliero/joes-data"
+            }
+          ]
+        }
       },
       "globus": {
         "application": {
