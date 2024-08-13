@@ -1,0 +1,5 @@
+# Hello!
+
+Welcome to Joe's Data Portal!
+
+This is an example implementation of the [@globus/template-data-portal](https://github.com/globus/template-data-portal), using the **unreleased** version of the underlying generator.
