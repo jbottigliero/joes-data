@@ -1,9 +1,20 @@
-# Hello!
+# Welcome!
 
 Welcome to Joe's Data Portal!
 
-This is an example implementation of the [@globus/template-data-portal](https://github.com/globus/template-data-portal), using the **unreleased** version of the underlying generator.
+This is a reference implementation of the [@globus/template-data-portal](https://github.com/globus/template-data-portal).
+
+**IMPORTANT** This implementation uses the **unreleased** version of the underlying generator. Configuration options for the currently published version of the generator might differ.
+
+--------
+
+The `@globus/template-data-portal` supports custom pages being added to your portal by adding a `content` directory to your repository and creating Markdown (`.md`) or [MDX (`.mdx`)](https://mdxjs.com/) files.
+
+**This** page is an example of a basic Markdown file acting as the homepage for our portal – you can view the source [here](https://github.com/jbottigliero/joes-data/blob/main/content/index.mdx).
+
+Files in the `content` directory can be deeply nested, allowing you to create URL path schemes that meet your use case. For example, providing status updates: [2024-08 Status](/status/2024-08-status).
+
+We use [Chakra UI](https://v2.chakra-ui.com/) as the underlying component library for the portal. Combining Chakra's component system with MDX allows you create [bespoke experiences that can cater to your most advanced needs](/chakra-ui).
 
 
-- [Markdown Example](/example)
-- [Chakra UI Example](/chakra-ui)
+
