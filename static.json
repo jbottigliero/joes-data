@@ -1,7 +1,7 @@
 {
   "_static": {
     "generator": {
-      "name":  "@globus/static-data-portal"
+      "name": "@globus/static-data-portal"
     }
   },
   "data": {
@@ -26,10 +26,15 @@
       "globus": {
         "application": {
           "client_id": "dcf26609-c9b1-4d5e-8ccd-03eeae50b738"
-      },
+        },
         "transfer": {
-          "collection_id": "996383e6-0c85-4339-a5ea-c3cd855c2692",
-          "path": "/home/globus-shared-user/joebott"
+          "collections": [
+            { "collection_id": "996383e6-0c85-4339-a5ea-c3cd855c2692" },
+            {
+              "collection_id": "996383e6-0c85-4339-a5ea-c3cd855c2692",
+              "path": "/home/globus-shared-user/joebott"
+            }
+          ]
         }
       }
     }
