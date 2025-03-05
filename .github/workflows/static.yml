@@ -23,4 +23,5 @@ jobs:
   static:
     uses: from-static/actions/.github/workflows/static.yml@main
     with:
-      generator_ref: "main"
+      # generator_ref: "main"
+      generator_ref: "feat-collection-browser"
